@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8620417f261e45478100a7690a7624d2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8620417f261e45478100a7690a7624d2" ></div>
+        
+</body>
+<script>    
+    
+            var map_8620417f261e45478100a7690a7624d2 = L.map(
+                "map_8620417f261e45478100a7690a7624d2",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_950d25daf0934fa5b5bf5c5eab02d0ed = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+            var circle_933f528695314f63927239b1ddc9e643 = L.circle(
+                [33.5897018, 119.0211943],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_4d2cc22cd18b46a7938074a306a25139 = L.popup({"maxWidth": 450});
+
+        
+            var html_ca2915a16482460484727c028e9eb88c = $(`<div id="html_ca2915a16482460484727c028e9eb88c" style="width: 100.0%; height: 100.0%;"> # of trials in Huaian: 1</div>`)[0];
+            popup_4d2cc22cd18b46a7938074a306a25139.setContent(html_ca2915a16482460484727c028e9eb88c);
+        
+
+        circle_933f528695314f63927239b1ddc9e643.bindPopup(popup_4d2cc22cd18b46a7938074a306a25139)
+        ;
+
+        
+    
+    
+            var circle_b3088f86a2594e49bffca341b525b93e = L.circle(
+                [44.83495335, 8.745030418605866],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_fc443ef9ba69475483790700a6953984 = L.popup({"maxWidth": 450});
+
+        
+            var html_51ef86a8281543b681ea54a8f5041199 = $(`<div id="html_51ef86a8281543b681ea54a8f5041199" style="width: 100.0%; height: 100.0%;"> # of trials in Alessandria: 1</div>`)[0];
+            popup_fc443ef9ba69475483790700a6953984.setContent(html_51ef86a8281543b681ea54a8f5041199);
+        
+
+        circle_b3088f86a2594e49bffca341b525b93e.bindPopup(popup_fc443ef9ba69475483790700a6953984)
+        ;
+
+        
+    
+    
+            var circle_2b3a4b37fbcf4c1cb46dd0e0af866214 = L.circle(
+                [45.6119057, 8.8520522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_a6ec212d2e9546638f84e33d4f50f422 = L.popup({"maxWidth": 450});
+
+        
+            var html_1861c42d32c5443898c106a002293fed = $(`<div id="html_1861c42d32c5443898c106a002293fed" style="width: 100.0%; height: 100.0%;"> # of trials in Busto Arsizio: 1</div>`)[0];
+            popup_a6ec212d2e9546638f84e33d4f50f422.setContent(html_1861c42d32c5443898c106a002293fed);
+        
+
+        circle_2b3a4b37fbcf4c1cb46dd0e0af866214.bindPopup(popup_a6ec212d2e9546638f84e33d4f50f422)
+        ;
+
+        
+    
+    
+            var circle_52f06bca175d47528689947c0b0d30f6 = L.circle(
+                [37.5022355, 15.08738],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_0c957d77a49943388514e2884320d293 = L.popup({"maxWidth": 450});
+
+        
+            var html_927a0958d47946129f760dfb19ae69a0 = $(`<div id="html_927a0958d47946129f760dfb19ae69a0" style="width: 100.0%; height: 100.0%;"> # of trials in Catania: 2</div>`)[0];
+            popup_0c957d77a49943388514e2884320d293.setContent(html_927a0958d47946129f760dfb19ae69a0);
+        
+
+        circle_52f06bca175d47528689947c0b0d30f6.bindPopup(popup_0c957d77a49943388514e2884320d293)
+        ;
+
+        
+    
+    
+            var circle_567c2cf667884599a9933e51bb90fbd3 = L.circle(
+                [39.596685300000004, 16.333055599019605],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_10b67166c0174c7bbc4e6213d28a7693 = L.popup({"maxWidth": 450});
+
+        
+            var html_afe7e1aa24a2460c876172a8bbddb719 = $(`<div id="html_afe7e1aa24a2460c876172a8bbddb719" style="width: 100.0%; height: 100.0%;"> # of trials in Cosenza: 1</div>`)[0];
+            popup_10b67166c0174c7bbc4e6213d28a7693.setContent(html_afe7e1aa24a2460c876172a8bbddb719);
+        
+
+        circle_567c2cf667884599a9933e51bb90fbd3.bindPopup(popup_10b67166c0174c7bbc4e6213d28a7693)
+        ;
+
+        
+    
+    
+            var circle_a9fa8bfc4fbb46f680f4e5c546afa2fb = L.circle(
+                [49.0481479, 3.9665072],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_8f53f5c693544f68896bd0c73c18be4c = L.popup({"maxWidth": 450});
+
+        
+            var html_988547bdbdb4454281b3ec14928cacdb = $(`<div id="html_988547bdbdb4454281b3ec14928cacdb" style="width: 100.0%; height: 100.0%;"> # of trials in Magenta: 1</div>`)[0];
+            popup_8f53f5c693544f68896bd0c73c18be4c.setContent(html_988547bdbdb4454281b3ec14928cacdb);
+        
+
+        circle_a9fa8bfc4fbb46f680f4e5c546afa2fb.bindPopup(popup_8f53f5c693544f68896bd0c73c18be4c)
+        ;
+
+        
+    
+    
+            var circle_7c42d087d2204dc6b04c258d42d262d0 = L.circle(
+                [44.5384728, 10.935960870530739],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_e5ef77d8db1149a8bbca70cd3aa0b7bf = L.popup({"maxWidth": 450});
+
+        
+            var html_5bc803fe7d8e49578aec365371eadb49 = $(`<div id="html_5bc803fe7d8e49578aec365371eadb49" style="width: 100.0%; height: 100.0%;"> # of trials in Modena: 5</div>`)[0];
+            popup_e5ef77d8db1149a8bbca70cd3aa0b7bf.setContent(html_5bc803fe7d8e49578aec365371eadb49);
+        
+
+        circle_7c42d087d2204dc6b04c258d42d262d0.bindPopup(popup_e5ef77d8db1149a8bbca70cd3aa0b7bf)
+        ;
+
+        
+    
+    
+            var circle_acdb59b75f1449d3b955379310b9831f = L.circle(
+                [40.8359336, 14.2487826],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_fd3c61d758ff480d893b7956f95804ef = L.popup({"maxWidth": 450});
+
+        
+            var html_3ffd1d786b884154a9ce712635ad93b8 = $(`<div id="html_3ffd1d786b884154a9ce712635ad93b8" style="width: 100.0%; height: 100.0%;"> # of trials in Naples: 5</div>`)[0];
+            popup_fd3c61d758ff480d893b7956f95804ef.setContent(html_3ffd1d786b884154a9ce712635ad93b8);
+        
+
+        circle_acdb59b75f1449d3b955379310b9831f.bindPopup(popup_fd3c61d758ff480d893b7956f95804ef)
+        ;
+
+        
+    
+    
+            var circle_45fffc9a68f2432f896132bf7fabe7ad = L.circle(
+                [43.9098114, 12.9131228],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_801077f418e848c38927acf8fbbcd50d = L.popup({"maxWidth": 450});
+
+        
+            var html_415e77614ff947fcbf092d113f8f74f5 = $(`<div id="html_415e77614ff947fcbf092d113f8f74f5" style="width: 100.0%; height: 100.0%;"> # of trials in Pesaro: 1</div>`)[0];
+            popup_801077f418e848c38927acf8fbbcd50d.setContent(html_415e77614ff947fcbf092d113f8f74f5);
+        
+
+        circle_45fffc9a68f2432f896132bf7fabe7ad.bindPopup(popup_801077f418e848c38927acf8fbbcd50d)
+        ;
+
+        
+    
+    
+            var circle_880f370f08034307bd0ed6f7cec9a51b = L.circle(
+                [40.822643, 14.1219109],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_981bc389b8b246e4b6993f37208453ed = L.popup({"maxWidth": 450});
+
+        
+            var html_c2610e2c15a54a2db9da05ddf38da586 = $(`<div id="html_c2610e2c15a54a2db9da05ddf38da586" style="width: 100.0%; height: 100.0%;"> # of trials in Pozzuoli: 1</div>`)[0];
+            popup_981bc389b8b246e4b6993f37208453ed.setContent(html_c2610e2c15a54a2db9da05ddf38da586);
+        
+
+        circle_880f370f08034307bd0ed6f7cec9a51b.bindPopup(popup_981bc389b8b246e4b6993f37208453ed)
+        ;
+
+        
+    
+    
+            var circle_441866d1469849de857bff2f0bcf768f = L.circle(
+                [44.364060699999996, 12.059009490863945],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_f17030cdbd5349d482121a59fa8d03e7 = L.popup({"maxWidth": 450});
+
+        
+            var html_7d91ecb3e2194a44bb3c7f0fea3f1325 = $(`<div id="html_7d91ecb3e2194a44bb3c7f0fea3f1325" style="width: 100.0%; height: 100.0%;"> # of trials in Ravenna: 1</div>`)[0];
+            popup_f17030cdbd5349d482121a59fa8d03e7.setContent(html_7d91ecb3e2194a44bb3c7f0fea3f1325);
+        
+
+        circle_441866d1469849de857bff2f0bcf768f.bindPopup(popup_f17030cdbd5349d482121a59fa8d03e7)
+        ;
+
+        
+    
+    
+            var circle_609bc9841bf5425db96a8ea4f872b161 = L.circle(
+                [38.1035389, 15.6397556],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_22757f66b8b149bab5f041a8019b3888 = L.popup({"maxWidth": 450});
+
+        
+            var html_528ac4ff7b2d4ba5abe727d12609d2fa = $(`<div id="html_528ac4ff7b2d4ba5abe727d12609d2fa" style="width: 100.0%; height: 100.0%;"> # of trials in Reggio Calabria: 1</div>`)[0];
+            popup_22757f66b8b149bab5f041a8019b3888.setContent(html_528ac4ff7b2d4ba5abe727d12609d2fa);
+        
+
+        circle_609bc9841bf5425db96a8ea4f872b161.bindPopup(popup_22757f66b8b149bab5f041a8019b3888)
+        ;
+
+        
+    
+    
+            var circle_cd35f5664f86411e9b51dad52dcbbf6e = L.circle(
+                [43.9470982, 12.630768610516004],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_faa4ae4ee69b4a26979b32dc08a91fda = L.popup({"maxWidth": 450});
+
+        
+            var html_76c2c9ab4d1c4bce82680162534a070f = $(`<div id="html_76c2c9ab4d1c4bce82680162534a070f" style="width: 100.0%; height: 100.0%;"> # of trials in Rimini: 1</div>`)[0];
+            popup_faa4ae4ee69b4a26979b32dc08a91fda.setContent(html_76c2c9ab4d1c4bce82680162534a070f);
+        
+
+        circle_cd35f5664f86411e9b51dad52dcbbf6e.bindPopup(popup_faa4ae4ee69b4a26979b32dc08a91fda)
+        ;
+
+        
+    
+    
+            var circle_ebd14b0fea524ad7b8a9320bcd0ffab3 = L.circle(
+                [41.8933203, 12.4829321],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_b943810c9cd9476f9b8af7cfe3dae507 = L.popup({"maxWidth": 450});
+
+        
+            var html_911aeb54cff24064b6c065c34a9c69d0 = $(`<div id="html_911aeb54cff24064b6c065c34a9c69d0" style="width: 100.0%; height: 100.0%;"> # of trials in Rome: 1</div>`)[0];
+            popup_b943810c9cd9476f9b8af7cfe3dae507.setContent(html_911aeb54cff24064b6c065c34a9c69d0);
+        
+
+        circle_ebd14b0fea524ad7b8a9320bcd0ffab3.bindPopup(popup_b943810c9cd9476f9b8af7cfe3dae507)
+        ;
+
+        
+    
+    
+            var circle_447a6b7aa91c44c186b6ccd334256082 = L.circle(
+                [45.83971285, 8.754157594917665],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_2edaa00e42724a8d8ec34cdd44b6d40b = L.popup({"maxWidth": 450});
+
+        
+            var html_ab6d78e017e24776bc0e7b38f2a68074 = $(`<div id="html_ab6d78e017e24776bc0e7b38f2a68074" style="width: 100.0%; height: 100.0%;"> # of trials in Varese: 4</div>`)[0];
+            popup_2edaa00e42724a8d8ec34cdd44b6d40b.setContent(html_ab6d78e017e24776bc0e7b38f2a68074);
+        
+
+        circle_447a6b7aa91c44c186b6ccd334256082.bindPopup(popup_2edaa00e42724a8d8ec34cdd44b6d40b)
+        ;
+
+        
+    
+    
+            var circle_307bc6b28a124331a28d8698e394cb1e = L.circle(
+                [45.4384958, 10.9924122],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_183b1fadf9d448c196500575bb61a331 = L.popup({"maxWidth": 450});
+
+        
+            var html_0927f57cb04646c8bfc333d47981a812 = $(`<div id="html_0927f57cb04646c8bfc333d47981a812" style="width: 100.0%; height: 100.0%;"> # of trials in Verona: 2</div>`)[0];
+            popup_183b1fadf9d448c196500575bb61a331.setContent(html_0927f57cb04646c8bfc333d47981a812);
+        
+
+        circle_307bc6b28a124331a28d8698e394cb1e.bindPopup(popup_183b1fadf9d448c196500575bb61a331)
+        ;
+
+        
+    
+    
+            var circle_312770c7843649bfb346c226aaa35fdf = L.circle(
+                [30.5951051, 114.2999353],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 120000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_2060f0d41d7444f98aca595668755b2e = L.popup({"maxWidth": 450});
+
+        
+            var html_50aa08e4250b4193a2ea203015367f3c = $(`<div id="html_50aa08e4250b4193a2ea203015367f3c" style="width: 100.0%; height: 100.0%;"> # of trials in Wuhan: 24</div>`)[0];
+            popup_2060f0d41d7444f98aca595668755b2e.setContent(html_50aa08e4250b4193a2ea203015367f3c);
+        
+
+        circle_312770c7843649bfb346c226aaa35fdf.bindPopup(popup_2060f0d41d7444f98aca595668755b2e)
+        ;
+
+        
+    
+    
+            var circle_4bfb693f200048d9b9e31028c7090a5e = L.circle(
+                [40.7127281, -74.0060152],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_a636cab7d79a4598b01586beda8713d5 = L.popup({"maxWidth": 450});
+
+        
+            var html_c8c275997a3a470fb7cef12bc6afd90e = $(`<div id="html_c8c275997a3a470fb7cef12bc6afd90e" style="width: 100.0%; height: 100.0%;"> # of trials in New York: 2</div>`)[0];
+            popup_a636cab7d79a4598b01586beda8713d5.setContent(html_c8c275997a3a470fb7cef12bc6afd90e);
+        
+
+        circle_4bfb693f200048d9b9e31028c7090a5e.bindPopup(popup_a636cab7d79a4598b01586beda8713d5)
+        ;
+
+        
+    
+    
+            var circle_7197ad16289b47519c1185d5df505139 = L.circle(
+                [22.555454, 114.0543297],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_99c74a0868b34194a8884e0bbed176a2 = L.popup({"maxWidth": 450});
+
+        
+            var html_66c86bea21204ca0a01d5f2b4d51aab2 = $(`<div id="html_66c86bea21204ca0a01d5f2b4d51aab2" style="width: 100.0%; height: 100.0%;"> # of trials in Shenzhen: 4</div>`)[0];
+            popup_99c74a0868b34194a8884e0bbed176a2.setContent(html_66c86bea21204ca0a01d5f2b4d51aab2);
+        
+
+        circle_7197ad16289b47519c1185d5df505139.bindPopup(popup_99c74a0868b34194a8884e0bbed176a2)
+        ;
+
+        
+    
+    
+            var circle_627568ea0be84154841e358fc31b5562 = L.circle(
+                [37.5666791, 126.9782914],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_d5f59f7830a64cd3b7e2a66ab71bf7b6 = L.popup({"maxWidth": 450});
+
+        
+            var html_ad18bdd304d54d599c045e3e4cfc5c6e = $(`<div id="html_ad18bdd304d54d599c045e3e4cfc5c6e" style="width: 100.0%; height: 100.0%;"> # of trials in Seoul: 6</div>`)[0];
+            popup_d5f59f7830a64cd3b7e2a66ab71bf7b6.setContent(html_ad18bdd304d54d599c045e3e4cfc5c6e);
+        
+
+        circle_627568ea0be84154841e358fc31b5562.bindPopup(popup_d5f59f7830a64cd3b7e2a66ab71bf7b6)
+        ;
+
+        
+    
+    
+            var circle_205bda9319654cbda6e89ea335149949 = L.circle(
+                [33.6170092, -117.9294401],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_d55923c58bad4c499c6f04d1dd4e96a5 = L.popup({"maxWidth": 450});
+
+        
+            var html_ba6be6d8491f4f72b284dbaa2dcfafc9 = $(`<div id="html_ba6be6d8491f4f72b284dbaa2dcfafc9" style="width: 100.0%; height: 100.0%;"> # of trials in Newport Beach: 2</div>`)[0];
+            popup_d55923c58bad4c499c6f04d1dd4e96a5.setContent(html_ba6be6d8491f4f72b284dbaa2dcfafc9);
+        
+
+        circle_205bda9319654cbda6e89ea335149949.bindPopup(popup_d55923c58bad4c499c6f04d1dd4e96a5)
+        ;
+
+        
+    
+    
+            var circle_37818992b9f643d4860e7adb2d073e85 = L.circle(
+                [37.427467, -122.1702445],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_96bafb86b2c644eb9e3c7786ffdeaed0 = L.popup({"maxWidth": 450});
+
+        
+            var html_132b4bdde82c4d1fb93b91cb8c5db819 = $(`<div id="html_132b4bdde82c4d1fb93b91cb8c5db819" style="width: 100.0%; height: 100.0%;"> # of trials in Stanford: 2</div>`)[0];
+            popup_96bafb86b2c644eb9e3c7786ffdeaed0.setContent(html_132b4bdde82c4d1fb93b91cb8c5db819);
+        
+
+        circle_37818992b9f643d4860e7adb2d073e85.bindPopup(popup_96bafb86b2c644eb9e3c7786ffdeaed0)
+        ;
+
+        
+    
+    
+            var circle_46949ced2c854d0eb756e6799d16b601 = L.circle(
+                [47.9673056, -122.2013998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_456d7b3c97504312886e3f2c437403fd = L.popup({"maxWidth": 450});
+
+        
+            var html_3c7a9e2742944422a41bf2ec9d56b45e = $(`<div id="html_3c7a9e2742944422a41bf2ec9d56b45e" style="width: 100.0%; height: 100.0%;"> # of trials in Everett: 2</div>`)[0];
+            popup_456d7b3c97504312886e3f2c437403fd.setContent(html_3c7a9e2742944422a41bf2ec9d56b45e);
+        
+
+        circle_46949ced2c854d0eb756e6799d16b601.bindPopup(popup_456d7b3c97504312886e3f2c437403fd)
+        ;
+
+        
+    
+    
+            var circle_5d9571e4ed9c4065b67cfad42b34a89f = L.circle(
+                [47.6038321, -122.3300624],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_845a17c4e82345aa9298ae0cc255d02c = L.popup({"maxWidth": 450});
+
+        
+            var html_3565d1d972d744a6964edfac92f68946 = $(`<div id="html_3565d1d972d744a6964edfac92f68946" style="width: 100.0%; height: 100.0%;"> # of trials in Seattle: 4</div>`)[0];
+            popup_845a17c4e82345aa9298ae0cc255d02c.setContent(html_3565d1d972d744a6964edfac92f68946);
+        
+
+        circle_5d9571e4ed9c4065b67cfad42b34a89f.bindPopup(popup_845a17c4e82345aa9298ae0cc255d02c)
+        ;
+
+        
+    
+    
+            var circle_209155ce330d4373981235c29b3ff735 = L.circle(
+                [22.2793278, 114.1628131],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_9d4490fce8c947b5af4e111dd01dcae2 = L.popup({"maxWidth": 450});
+
+        
+            var html_0258e28e33c347ce885c0eaba98de987 = $(`<div id="html_0258e28e33c347ce885c0eaba98de987" style="width: 100.0%; height: 100.0%;"> # of trials in Hong Kong: 7</div>`)[0];
+            popup_9d4490fce8c947b5af4e111dd01dcae2.setContent(html_0258e28e33c347ce885c0eaba98de987);
+        
+
+        circle_209155ce330d4373981235c29b3ff735.bindPopup(popup_9d4490fce8c947b5af4e111dd01dcae2)
+        ;
+
+        
+    
+    
+            var circle_56465f5106db416abcf968e1c216cfba = L.circle(
+                [35.8713, 128.6018],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_583f08d8946e49c7baf9d12bdd371f59 = L.popup({"maxWidth": 450});
+
+        
+            var html_2fc4dae9da4b45519ef9c82e5cd38455 = $(`<div id="html_2fc4dae9da4b45519ef9c82e5cd38455" style="width: 100.0%; height: 100.0%;"> # of trials in Daegu: 2</div>`)[0];
+            popup_583f08d8946e49c7baf9d12bdd371f59.setContent(html_2fc4dae9da4b45519ef9c82e5cd38455);
+        
+
+        circle_56465f5106db416abcf968e1c216cfba.bindPopup(popup_583f08d8946e49c7baf9d12bdd371f59)
+        ;
+
+        
+    
+    
+            var circle_a9d1fc68885541eea445d8a8fb023925 = L.circle(
+                [1.357107, 103.8194992],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_9336f906c747407bbb2627310f3d46c6 = L.popup({"maxWidth": 450});
+
+        
+            var html_14477de8234e4e0f8e94a1a827c5aec2 = $(`<div id="html_14477de8234e4e0f8e94a1a827c5aec2" style="width: 100.0%; height: 100.0%;"> # of trials in Singapore: 8</div>`)[0];
+            popup_9336f906c747407bbb2627310f3d46c6.setContent(html_14477de8234e4e0f8e94a1a827c5aec2);
+        
+
+        circle_a9d1fc68885541eea445d8a8fb023925.bindPopup(popup_9336f906c747407bbb2627310f3d46c6)
+        ;
+
+        
+    
+    
+            var circle_a183267ece9d4ee3bbf7be4e694c6bca = L.circle(
+                [25.0375198, 121.5636796],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_c4569f9108dd40e3ad3b4541b531db97 = L.popup({"maxWidth": 450});
+
+        
+            var html_9c09e3c0cefb41878fae6759a82452a8 = $(`<div id="html_9c09e3c0cefb41878fae6759a82452a8" style="width: 100.0%; height: 100.0%;"> # of trials in Taipei City: 2</div>`)[0];
+            popup_c4569f9108dd40e3ad3b4541b531db97.setContent(html_9c09e3c0cefb41878fae6759a82452a8);
+        
+
+        circle_a183267ece9d4ee3bbf7be4e694c6bca.bindPopup(popup_c4569f9108dd40e3ad3b4541b531db97)
+        ;
+
+        
+    
+    
+            var circle_c1cbf1472d414ad5accdf18ee66caa22 = L.circle(
+                [31.9515694, 35.9239625],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_74599c06ea2546d9973e1e281bf672fd = L.popup({"maxWidth": 450});
+
+        
+            var html_a5d3690cbe4b4df5be354b6dc801fcfd = $(`<div id="html_a5d3690cbe4b4df5be354b6dc801fcfd" style="width: 100.0%; height: 100.0%;"> # of trials in Amman: 1</div>`)[0];
+            popup_74599c06ea2546d9973e1e281bf672fd.setContent(html_a5d3690cbe4b4df5be354b6dc801fcfd);
+        
+
+        circle_c1cbf1472d414ad5accdf18ee66caa22.bindPopup(popup_74599c06ea2546d9973e1e281bf672fd)
+        ;
+
+        
+    
+    
+            var circle_e287ade1de1c44bfa9bcffc87fde4d14 = L.circle(
+                [27.9957951, 116.353245],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_b917dd6342284b18930120e58cd2a3a1 = L.popup({"maxWidth": 450});
+
+        
+            var html_33262d5a2d024b1d877a7b302e3c1c86 = $(`<div id="html_33262d5a2d024b1d877a7b302e3c1c86" style="width: 100.0%; height: 100.0%;"> # of trials in Fuzhou: 1</div>`)[0];
+            popup_b917dd6342284b18930120e58cd2a3a1.setContent(html_33262d5a2d024b1d877a7b302e3c1c86);
+        
+
+        circle_e287ade1de1c44bfa9bcffc87fde4d14.bindPopup(popup_b917dd6342284b18930120e58cd2a3a1)
+        ;
+
+        
+    
+    
+            var circle_c351d827ee124c36af6ef5aae8cc27e2 = L.circle(
+                [30.7031196, 111.2750181],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_1eee6aea5db242c9891a5930c937892e = L.popup({"maxWidth": 450});
+
+        
+            var html_69927a5a468d4af1bbeaa658369de431 = $(`<div id="html_69927a5a468d4af1bbeaa658369de431" style="width: 100.0%; height: 100.0%;"> # of trials in Yichang: 1</div>`)[0];
+            popup_1eee6aea5db242c9891a5930c937892e.setContent(html_69927a5a468d4af1bbeaa658369de431);
+        
+
+        circle_c351d827ee124c36af6ef5aae8cc27e2.bindPopup(popup_1eee6aea5db242c9891a5930c937892e)
+        ;
+
+        
+    
+    
+            var circle_ff7c618cc55444cbb36e346b5cfadb1f = L.circle(
+                [48.8566969, 2.3514616],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_7375628a9d7e413f95c0322cdf901857 = L.popup({"maxWidth": 450});
+
+        
+            var html_14b2a69428ab46f1a8c9b9e5a9abae70 = $(`<div id="html_14b2a69428ab46f1a8c9b9e5a9abae70" style="width: 100.0%; height: 100.0%;"> # of trials in Paris: 5</div>`)[0];
+            popup_7375628a9d7e413f95c0322cdf901857.setContent(html_14b2a69428ab46f1a8c9b9e5a9abae70);
+        
+
+        circle_ff7c618cc55444cbb36e346b5cfadb1f.bindPopup(popup_7375628a9d7e413f95c0322cdf901857)
+        ;
+
+        
+    
+    
+            var circle_9378293daeae4906a701705f1f9a1604 = L.circle(
+                [30.5951051, 114.2999353],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_fa6614d51410486cb6fe0e9338bc50bb = L.popup({"maxWidth": 450});
+
+        
+            var html_82f894af8e5e48b289ddee71e4471446 = $(`<div id="html_82f894af8e5e48b289ddee71e4471446" style="width: 100.0%; height: 100.0%;"> # of trials in Wu Han: 1</div>`)[0];
+            popup_fa6614d51410486cb6fe0e9338bc50bb.setContent(html_82f894af8e5e48b289ddee71e4471446);
+        
+
+        circle_9378293daeae4906a701705f1f9a1604.bindPopup(popup_fa6614d51410486cb6fe0e9338bc50bb)
+        ;
+
+        
+    
+    
+            var circle_f7b7dc9309894f9c94a80a0964b986cb = L.circle(
+                [39.906217, 116.3912757],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_c1821fc6c1a24960b0daa1c10f9cb940 = L.popup({"maxWidth": 450});
+
+        
+            var html_8a046f5d599b456c893927ccf57d886c = $(`<div id="html_8a046f5d599b456c893927ccf57d886c" style="width: 100.0%; height: 100.0%;"> # of trials in Beijing: 8</div>`)[0];
+            popup_c1821fc6c1a24960b0daa1c10f9cb940.setContent(html_8a046f5d599b456c893927ccf57d886c);
+        
+
+        circle_f7b7dc9309894f9c94a80a0964b986cb.bindPopup(popup_c1821fc6c1a24960b0daa1c10f9cb940)
+        ;
+
+        
+    
+    
+            var circle_05be7ecd39c14be887725545f3c7e0c8 = L.circle(
+                [31.2322758, 121.4692071],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_8db6322392b24a3189bd4751e062e91b = L.popup({"maxWidth": 450});
+
+        
+            var html_503b0fd1db7c4b49acbe1a20312b3db0 = $(`<div id="html_503b0fd1db7c4b49acbe1a20312b3db0" style="width: 100.0%; height: 100.0%;"> # of trials in Shanghai: 7</div>`)[0];
+            popup_8db6322392b24a3189bd4751e062e91b.setContent(html_503b0fd1db7c4b49acbe1a20312b3db0);
+        
+
+        circle_05be7ecd39c14be887725545f3c7e0c8.bindPopup(popup_8db6322392b24a3189bd4751e062e91b)
+        ;
+
+        
+    
+    
+            var circle_52ed4ab6510f4369929dd4148f560aab = L.circle(
+                [31.75152435, 117.33189367636766],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_8ddbde2615994b2aaae7656b7c5fed51 = L.popup({"maxWidth": 450});
+
+        
+            var html_319ff1473f5c41e2be7a5110001d86b4 = $(`<div id="html_319ff1473f5c41e2be7a5110001d86b4" style="width: 100.0%; height: 100.0%;"> # of trials in Hefei: 1</div>`)[0];
+            popup_8ddbde2615994b2aaae7656b7c5fed51.setContent(html_319ff1473f5c41e2be7a5110001d86b4);
+        
+
+        circle_52ed4ab6510f4369929dd4148f560aab.bindPopup(popup_8ddbde2615994b2aaae7656b7c5fed51)
+        ;
+
+        
+    
+    
+            var circle_247563cf19a64ed5bac948a09b0532bb = L.circle(
+                [59.8586126, 17.6387436],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_95ad128e88b342089a0f718aff862907 = L.popup({"maxWidth": 450});
+
+        
+            var html_145b6ef1124d44d7956fa74fc66062e3 = $(`<div id="html_145b6ef1124d44d7956fa74fc66062e3" style="width: 100.0%; height: 100.0%;"> # of trials in Uppsala: 1</div>`)[0];
+            popup_95ad128e88b342089a0f718aff862907.setContent(html_145b6ef1124d44d7956fa74fc66062e3);
+        
+
+        circle_247563cf19a64ed5bac948a09b0532bb.bindPopup(popup_95ad128e88b342089a0f718aff862907)
+        ;
+
+        
+    
+    
+            var circle_6a332bcadcb64671ae42587ca4a70eb5 = L.circle(
+                [34.7591877, 113.6524076],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_0a79ccd993da4985a63134f5a17de42d = L.popup({"maxWidth": 450});
+
+        
+            var html_071b748103ef44799cde955f72df07be = $(`<div id="html_071b748103ef44799cde955f72df07be" style="width: 100.0%; height: 100.0%;"> # of trials in Zhengzhou: 1</div>`)[0];
+            popup_0a79ccd993da4985a63134f5a17de42d.setContent(html_071b748103ef44799cde955f72df07be);
+        
+
+        circle_6a332bcadcb64671ae42587ca4a70eb5.bindPopup(popup_0a79ccd993da4985a63134f5a17de42d)
+        ;
+
+        
+    
+    
+            var circle_24ddbb05c36f4c1f9855ef342a3ce533 = L.circle(
+                [47.1615341, 27.5836142],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_4a6fbd37dc4040179b6b27f8b6e32de3 = L.popup({"maxWidth": 450});
+
+        
+            var html_6c89fe2471b64ebea77d3ff063a33917 = $(`<div id="html_6c89fe2471b64ebea77d3ff063a33917" style="width: 100.0%; height: 100.0%;"> # of trials in Iaşi: 1</div>`)[0];
+            popup_4a6fbd37dc4040179b6b27f8b6e32de3.setContent(html_6c89fe2471b64ebea77d3ff063a33917);
+        
+
+        circle_24ddbb05c36f4c1f9855ef342a3ce533.bindPopup(popup_4a6fbd37dc4040179b6b27f8b6e32de3)
+        ;
+
+        
+    
+    
+            var circle_aeec5378c8274bd283bdf94959198a1c = L.circle(
+                [36.6507007, 117.1140042],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_184f2436d1604746b8c6d5fb59cac3c3 = L.popup({"maxWidth": 450});
+
+        
+            var html_49f0685053594f5093fa4ebefc74036e = $(`<div id="html_49f0685053594f5093fa4ebefc74036e" style="width: 100.0%; height: 100.0%;"> # of trials in Jinan: 6</div>`)[0];
+            popup_184f2436d1604746b8c6d5fb59cac3c3.setContent(html_49f0685053594f5093fa4ebefc74036e);
+        
+
+        circle_aeec5378c8274bd283bdf94959198a1c.bindPopup(popup_184f2436d1604746b8c6d5fb59cac3c3)
+        ;
+
+        
+    
+    
+            var circle_3bcf2d7c44c1443f80765938e1f24501 = L.circle(
+                [28.6792695, 115.8885987],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_15af87cbb7ad4f2fa52849a8af9c511d = L.popup({"maxWidth": 450});
+
+        
+            var html_e381c99ae64b4d2fbeb5326c8ac4baba = $(`<div id="html_e381c99ae64b4d2fbeb5326c8ac4baba" style="width: 100.0%; height: 100.0%;"> # of trials in Nanchang: 1</div>`)[0];
+            popup_15af87cbb7ad4f2fa52849a8af9c511d.setContent(html_e381c99ae64b4d2fbeb5326c8ac4baba);
+        
+
+        circle_3bcf2d7c44c1443f80765938e1f24501.bindPopup(popup_15af87cbb7ad4f2fa52849a8af9c511d)
+        ;
+
+        
+    
+    
+            var circle_215524233b3848eebf046a25edad4994 = L.circle(
+                [32.83259, -117.2716839],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_08203d0a69b947989557c93cc23a380f = L.popup({"maxWidth": 450});
+
+        
+            var html_b7900aa4a764458993cbd2f2f6afd85d = $(`<div id="html_b7900aa4a764458993cbd2f2f6afd85d" style="width: 100.0%; height: 100.0%;"> # of trials in La Jolla: 1</div>`)[0];
+            popup_08203d0a69b947989557c93cc23a380f.setContent(html_b7900aa4a764458993cbd2f2f6afd85d);
+        
+
+        circle_215524233b3848eebf046a25edad4994.bindPopup(popup_08203d0a69b947989557c93cc23a380f)
+        ;
+
+        
+    
+    
+            var circle_4fb49f9873174e3183d3c50fe3ac019d = L.circle(
+                [33.7500378, -117.8704931],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_a6dbd9faa92e4d4d937467cde85c95a7 = L.popup({"maxWidth": 450});
+
+        
+            var html_ee89d0954f734bd6bbe5157cbaf63076 = $(`<div id="html_ee89d0954f734bd6bbe5157cbaf63076" style="width: 100.0%; height: 100.0%;"> # of trials in Orange: 1</div>`)[0];
+            popup_a6dbd9faa92e4d4d937467cde85c95a7.setContent(html_ee89d0954f734bd6bbe5157cbaf63076);
+        
+
+        circle_4fb49f9873174e3183d3c50fe3ac019d.bindPopup(popup_a6dbd9faa92e4d4d937467cde85c95a7)
+        ;
+
+        
+    
+    
+            var circle_4fcc26eaf82448bb92eb122070620959 = L.circle(
+                [38.5815719, -121.4943996],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_65e319cc4b6c4a2683032b95abec16c6 = L.popup({"maxWidth": 450});
+
+        
+            var html_54df7b9309e54d1b9f1fc6bbcb944052 = $(`<div id="html_54df7b9309e54d1b9f1fc6bbcb944052" style="width: 100.0%; height: 100.0%;"> # of trials in Sacramento: 1</div>`)[0];
+            popup_65e319cc4b6c4a2683032b95abec16c6.setContent(html_54df7b9309e54d1b9f1fc6bbcb944052);
+        
+
+        circle_4fcc26eaf82448bb92eb122070620959.bindPopup(popup_65e319cc4b6c4a2683032b95abec16c6)
+        ;
+
+        
+    
+    
+            var circle_176aee67aa4148398e93e1e80ee19a8f = L.circle(
+                [33.7490987, -84.3901849],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_75462c2d368e41c4a27828846a76fa29 = L.popup({"maxWidth": 450});
+
+        
+            var html_46f0f1df91624468be330a953b422f0e = $(`<div id="html_46f0f1df91624468be330a953b422f0e" style="width: 100.0%; height: 100.0%;"> # of trials in Atlanta: 1</div>`)[0];
+            popup_75462c2d368e41c4a27828846a76fa29.setContent(html_46f0f1df91624468be330a953b422f0e);
+        
+
+        circle_176aee67aa4148398e93e1e80ee19a8f.bindPopup(popup_75462c2d368e41c4a27828846a76fa29)
+        ;
+
+        
+    
+    
+            var circle_ac6675a2d7ed4a608801a61978fe0203 = L.circle(
+                [39.8454163, -88.9524151],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_93243acc51c64a639bc4fdd6eb61d941 = L.popup({"maxWidth": 450});
+
+        
+            var html_b120f6e86a3c41658b21a84d83256fd3 = $(`<div id="html_b120f6e86a3c41658b21a84d83256fd3" style="width: 100.0%; height: 100.0%;"> # of trials in Decatur: 2</div>`)[0];
+            popup_93243acc51c64a639bc4fdd6eb61d941.setContent(html_b120f6e86a3c41658b21a84d83256fd3);
+        
+
+        circle_ac6675a2d7ed4a608801a61978fe0203.bindPopup(popup_93243acc51c64a639bc4fdd6eb61d941)
+        ;
+
+        
+    
+    
+            var circle_108ad61700754c8c88df88d8a7ae56bf = L.circle(
+                [38.9786401, -76.492786],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_363800ce223c41e7a2699bb175dabc48 = L.popup({"maxWidth": 450});
+
+        
+            var html_1a99ecdb8be74eaab8b5f087fa5b127f = $(`<div id="html_1a99ecdb8be74eaab8b5f087fa5b127f" style="width: 100.0%; height: 100.0%;"> # of trials in Annapolis: 1</div>`)[0];
+            popup_363800ce223c41e7a2699bb175dabc48.setContent(html_1a99ecdb8be74eaab8b5f087fa5b127f);
+        
+
+        circle_108ad61700754c8c88df88d8a7ae56bf.bindPopup(popup_363800ce223c41e7a2699bb175dabc48)
+        ;
+
+        
+    
+    
+            var circle_070312bd07cf4f49ac619c1af4ce0d6a = L.circle(
+                [39.2908816, -76.610759],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_84f9eda53ce84bb2951f037f344e72a3 = L.popup({"maxWidth": 450});
+
+        
+            var html_9540b07b3be54893a2a9d96ee8b9850e = $(`<div id="html_9540b07b3be54893a2a9d96ee8b9850e" style="width: 100.0%; height: 100.0%;"> # of trials in Baltimore: 1</div>`)[0];
+            popup_84f9eda53ce84bb2951f037f344e72a3.setContent(html_9540b07b3be54893a2a9d96ee8b9850e);
+        
+
+        circle_070312bd07cf4f49ac619c1af4ce0d6a.bindPopup(popup_84f9eda53ce84bb2951f037f344e72a3)
+        ;
+
+        
+    
+    
+            var circle_ef202f9e0aab4d3093255bd66867046b = L.circle(
+                [38.9819845, -77.12423413116392],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_ea6da00d7a2c4f09ae6df00bba01df59 = L.popup({"maxWidth": 450});
+
+        
+            var html_1c0d085b23ce488c952d3f0df89260c4 = $(`<div id="html_1c0d085b23ce488c952d3f0df89260c4" style="width: 100.0%; height: 100.0%;"> # of trials in Bethesda: 1</div>`)[0];
+            popup_ea6da00d7a2c4f09ae6df00bba01df59.setContent(html_1c0d085b23ce488c952d3f0df89260c4);
+        
+
+        circle_ef202f9e0aab4d3093255bd66867046b.bindPopup(popup_ea6da00d7a2c4f09ae6df00bba01df59)
+        ;
+
+        
+    
+    
+            var circle_ad4ccfdfe43d4bb9a5585cefe0bfe379 = L.circle(
+                [44.9772995, -93.2654692],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_e8a66edcf61d46d38b809ae0a4f7c3fa = L.popup({"maxWidth": 450});
+
+        
+            var html_7b9510304efc4f83a609c983d8765921 = $(`<div id="html_7b9510304efc4f83a609c983d8765921" style="width: 100.0%; height: 100.0%;"> # of trials in Minneapolis: 2</div>`)[0];
+            popup_e8a66edcf61d46d38b809ae0a4f7c3fa.setContent(html_7b9510304efc4f83a609c983d8765921);
+        
+
+        circle_ad4ccfdfe43d4bb9a5585cefe0bfe379.bindPopup(popup_e8a66edcf61d46d38b809ae0a4f7c3fa)
+        ;
+
+        
+    
+    
+            var circle_57853496eb1c468583b56192a9df04fd = L.circle(
+                [38.7604815, -92.5617875],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_4cf6856dfd244c4fbf769f398c8f3389 = L.popup({"maxWidth": 450});
+
+        
+            var html_73e94f7b903d41a6958fb80aaa675f4f = $(`<div id="html_73e94f7b903d41a6958fb80aaa675f4f" style="width: 100.0%; height: 100.0%;"> # of trials in Missouri: 1</div>`)[0];
+            popup_4cf6856dfd244c4fbf769f398c8f3389.setContent(html_73e94f7b903d41a6958fb80aaa675f4f);
+        
+
+        circle_57853496eb1c468583b56192a9df04fd.bindPopup(popup_4cf6856dfd244c4fbf769f398c8f3389)
+        ;
+
+        
+    
+    
+            var circle_0de3547aa3274588945e29cd8eb75df6 = L.circle(
+                [41.2587459, -95.9383758],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_0662b35f38ec4104a478a6f47162b553 = L.popup({"maxWidth": 450});
+
+        
+            var html_7ad9c604c26a419789203e112faa3cb0 = $(`<div id="html_7ad9c604c26a419789203e112faa3cb0" style="width: 100.0%; height: 100.0%;"> # of trials in Omaha: 1</div>`)[0];
+            popup_0662b35f38ec4104a478a6f47162b553.setContent(html_7ad9c604c26a419789203e112faa3cb0);
+        
+
+        circle_0de3547aa3274588945e29cd8eb75df6.bindPopup(popup_0662b35f38ec4104a478a6f47162b553)
+        ;
+
+        
+    
+    
+            var circle_5b98276af9454ce5b1193f41f8819cef = L.circle(
+                [29.3872254, -94.992736],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_3e171e00ffd946ecb93a5114c9d980a9 = L.popup({"maxWidth": 450});
+
+        
+            var html_9d3d2da4caec4388a24ae4296d13c651 = $(`<div id="html_9d3d2da4caec4388a24ae4296d13c651" style="width: 100.0%; height: 100.0%;"> # of trials in Galveston: 1</div>`)[0];
+            popup_3e171e00ffd946ecb93a5114c9d980a9.setContent(html_9d3d2da4caec4388a24ae4296d13c651);
+        
+
+        circle_5b98276af9454ce5b1193f41f8819cef.bindPopup(popup_3e171e00ffd946ecb93a5114c9d980a9)
+        ;
+
+        
+    
+    
+            var circle_3c47fa0750f44b65afb5daf10b06a3fe = L.circle(
+                [29.7589382, -95.3676974],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_d7127cf907f74b60a5e4b0e5bb8fee28 = L.popup({"maxWidth": 450});
+
+        
+            var html_20e2301ed7cb4c0b87e46d0bdb079aec = $(`<div id="html_20e2301ed7cb4c0b87e46d0bdb079aec" style="width: 100.0%; height: 100.0%;"> # of trials in Houston: 1</div>`)[0];
+            popup_d7127cf907f74b60a5e4b0e5bb8fee28.setContent(html_20e2301ed7cb4c0b87e46d0bdb079aec);
+        
+
+        circle_3c47fa0750f44b65afb5daf10b06a3fe.bindPopup(popup_d7127cf907f74b60a5e4b0e5bb8fee28)
+        ;
+
+        
+    
+    
+            var circle_b4d174f38bd340e28dea25bb582543b6 = L.circle(
+                [47.6859573, -122.1920249],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_84ca94237efa46cba8eb83ec806f162b = L.popup({"maxWidth": 450});
+
+        
+            var html_11bd2f56ac8b4d9a871b0095517b1ee7 = $(`<div id="html_11bd2f56ac8b4d9a871b0095517b1ee7" style="width: 100.0%; height: 100.0%;"> # of trials in Kirkland: 1</div>`)[0];
+            popup_84ca94237efa46cba8eb83ec806f162b.setContent(html_11bd2f56ac8b4d9a871b0095517b1ee7);
+        
+
+        circle_b4d174f38bd340e28dea25bb582543b6.bindPopup(popup_84ca94237efa46cba8eb83ec806f162b)
+        ;
+
+        
+    
+    
+            var circle_00b95425b1c84d94a960b46295909cda = L.circle(
+                [47.6579425, -117.4212265],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_a16f878d28e2441b83db5864b107ed31 = L.popup({"maxWidth": 450});
+
+        
+            var html_09ecc7a19db848428cf3896b51752fcf = $(`<div id="html_09ecc7a19db848428cf3896b51752fcf" style="width: 100.0%; height: 100.0%;"> # of trials in Spokane: 1</div>`)[0];
+            popup_a16f878d28e2441b83db5864b107ed31.setContent(html_09ecc7a19db848428cf3896b51752fcf);
+        
+
+        circle_00b95425b1c84d94a960b46295909cda.bindPopup(popup_a16f878d28e2441b83db5864b107ed31)
+        ;
+
+        
+    
+    
+            var circle_941aadd5490445559046a60eecb32c76 = L.circle(
+                [37.3825999, 127.1188],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_858cd0f405ed4f83ab4458aaf9141865 = L.popup({"maxWidth": 450});
+
+        
+            var html_b0d0a4df28754040a4014a1b4bb118e7 = $(`<div id="html_b0d0a4df28754040a4014a1b4bb118e7" style="width: 100.0%; height: 100.0%;"> # of trials in Bundang-gu Seongnam-si: 1</div>`)[0];
+            popup_858cd0f405ed4f83ab4458aaf9141865.setContent(html_b0d0a4df28754040a4014a1b4bb118e7);
+        
+
+        circle_941aadd5490445559046a60eecb32c76.bindPopup(popup_858cd0f405ed4f83ab4458aaf9141865)
+        ;
+
+        
+    
+    
+            var circle_8962fcea44dd4c12834b3cac62ffbcc2 = L.circle(
+                [23.1301964, 113.2592945],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_cd7208ce40e44e6296f04bd209d69f2c = L.popup({"maxWidth": 450});
+
+        
+            var html_04255675e3da4909aa67122ed365142c = $(`<div id="html_04255675e3da4909aa67122ed365142c" style="width: 100.0%; height: 100.0%;"> # of trials in Guangzhou: 2</div>`)[0];
+            popup_cd7208ce40e44e6296f04bd209d69f2c.setContent(html_04255675e3da4909aa67122ed365142c);
+        
+
+        circle_8962fcea44dd4c12834b3cac62ffbcc2.bindPopup(popup_cd7208ce40e44e6296f04bd209d69f2c)
+        ;
+
+        
+    
+    
+            var circle_f76de8c979494effbfd3154a5871134b = L.circle(
+                [45.7774951, 127.6646783],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_0b411cd36d8f4060bfcd8cad3483a3cb = L.popup({"maxWidth": 450});
+
+        
+            var html_4e14c1c585794fa4ba4207706a5898b9 = $(`<div id="html_4e14c1c585794fa4ba4207706a5898b9" style="width: 100.0%; height: 100.0%;"> # of trials in Binzhou: 1</div>`)[0];
+            popup_0b411cd36d8f4060bfcd8cad3483a3cb.setContent(html_4e14c1c585794fa4ba4207706a5898b9);
+        
+
+        circle_f76de8c979494effbfd3154a5871134b.bindPopup(popup_0b411cd36d8f4060bfcd8cad3483a3cb)
+        ;
+
+        
+    
+    
+            var circle_fd3a1a0c8c25443bafd54a9c67678810 = L.circle(
+                [35.2477266, 115.4464761],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_2e806aaaf9f448fe859345c8b1760055 = L.popup({"maxWidth": 450});
+
+        
+            var html_1ec5ea34662c435687ca6431e88f6711 = $(`<div id="html_1ec5ea34662c435687ca6431e88f6711" style="width: 100.0%; height: 100.0%;"> # of trials in Heze: 1</div>`)[0];
+            popup_2e806aaaf9f448fe859345c8b1760055.setContent(html_1ec5ea34662c435687ca6431e88f6711);
+        
+
+        circle_fd3a1a0c8c25443bafd54a9c67678810.bindPopup(popup_2e806aaaf9f448fe859345c8b1760055)
+        ;
+
+        
+    
+    
+            var circle_4e3a3d91a9584a37ab512794a23e46a1 = L.circle(
+                [35.4125047, 116.5849266],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_413ffed135ec434683cf4af5cfe75c14 = L.popup({"maxWidth": 450});
+
+        
+            var html_3f2885d384cd4fdf91ca95ca593daef3 = $(`<div id="html_3f2885d384cd4fdf91ca95ca593daef3" style="width: 100.0%; height: 100.0%;"> # of trials in Jining: 1</div>`)[0];
+            popup_413ffed135ec434683cf4af5cfe75c14.setContent(html_3f2885d384cd4fdf91ca95ca593daef3);
+        
+
+        circle_4e3a3d91a9584a37ab512794a23e46a1.bindPopup(popup_413ffed135ec434683cf4af5cfe75c14)
+        ;
+
+        
+    
+    
+            var circle_c65b19dc64ef4d05975e45a1c850792b = L.circle(
+                [35.9754168, 139.4160114],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_b370ed967a584cf9880cd5a58683a1ef = L.popup({"maxWidth": 450});
+
+        
+            var html_3ae44ffc28d84a1a9b3d4784e567e54b = $(`<div id="html_3ae44ffc28d84a1a9b3d4784e567e54b" style="width: 100.0%; height: 100.0%;"> # of trials in Qihe: 1</div>`)[0];
+            popup_b370ed967a584cf9880cd5a58683a1ef.setContent(html_3ae44ffc28d84a1a9b3d4784e567e54b);
+        
+
+        circle_c65b19dc64ef4d05975e45a1c850792b.bindPopup(popup_b370ed967a584cf9880cd5a58683a1ef)
+        ;
+
+        
+    
+    
+            var circle_60a82df4f77c464dac5eaa3db8a21c74 = L.circle(
+                [36.0638034, 120.3781372],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_4fa19bb18e2441a7ac32d05fd0656856 = L.popup({"maxWidth": 450});
+
+        
+            var html_be37af5f6e17467f9ae9bc0b4347ecc2 = $(`<div id="html_be37af5f6e17467f9ae9bc0b4347ecc2" style="width: 100.0%; height: 100.0%;"> # of trials in Qingdao: 1</div>`)[0];
+            popup_4fa19bb18e2441a7ac32d05fd0656856.setContent(html_be37af5f6e17467f9ae9bc0b4347ecc2);
+        
+
+        circle_60a82df4f77c464dac5eaa3db8a21c74.bindPopup(popup_4fa19bb18e2441a7ac32d05fd0656856)
+        ;
+
+        
+    
+    
+            var circle_146654281203491884ff3cc512af0437 = L.circle(
+                [37.5120997, 122.1152599],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_37df778a3382423c94c50f85d2e3e542 = L.popup({"maxWidth": 450});
+
+        
+            var html_b0421605354243e585ef04bc26ccf7d9 = $(`<div id="html_b0421605354243e585ef04bc26ccf7d9" style="width: 100.0%; height: 100.0%;"> # of trials in Weihai: 1</div>`)[0];
+            popup_37df778a3382423c94c50f85d2e3e542.setContent(html_b0421605354243e585ef04bc26ccf7d9);
+        
+
+        circle_146654281203491884ff3cc512af0437.bindPopup(popup_37df778a3382423c94c50f85d2e3e542)
+        ;
+
+        
+    
+    
+            var circle_38d9681cee5d48eaa0fc61d02907ff5e = L.circle(
+                [36.8047833, 118.0444472],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_d9a8f7488a0540bfb2bd6b85325f675a = L.popup({"maxWidth": 450});
+
+        
+            var html_cd83d0c629894fa2b28bf52fab132d6c = $(`<div id="html_cd83d0c629894fa2b28bf52fab132d6c" style="width: 100.0%; height: 100.0%;"> # of trials in Zibo: 1</div>`)[0];
+            popup_d9a8f7488a0540bfb2bd6b85325f675a.setContent(html_cd83d0c629894fa2b28bf52fab132d6c);
+        
+
+        circle_38d9681cee5d48eaa0fc61d02907ff5e.bindPopup(popup_d9a8f7488a0540bfb2bd6b85325f675a)
+        ;
+
+        
+    
+    
+            var circle_6c23b6e13d614c13868081dc6b1bdc5a = L.circle(
+                [45.7578137, 4.8320114],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_c5c14d54db114d10ae8814caed16de37 = L.popup({"maxWidth": 450});
+
+        
+            var html_d9339f3a3fad4f969f9797a17693378e = $(`<div id="html_d9339f3a3fad4f969f9797a17693378e" style="width: 100.0%; height: 100.0%;"> # of trials in Lyon: 2</div>`)[0];
+            popup_c5c14d54db114d10ae8814caed16de37.setContent(html_d9339f3a3fad4f969f9797a17693378e);
+        
+
+        circle_6c23b6e13d614c13868081dc6b1bdc5a.bindPopup(popup_c5c14d54db114d10ae8814caed16de37)
+        ;
+
+        
+    
+    
+            var circle_66126616581542aeadf4525a3b8feb01 = L.circle(
+                [34.3468421, 108.9365887],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_6cd273a400ba4ba1a6d459a5f1c49f87 = L.popup({"maxWidth": 450});
+
+        
+            var html_676bf3f03c054f5ca432827f8c041cb4 = $(`<div id="html_676bf3f03c054f5ca432827f8c041cb4" style="width: 100.0%; height: 100.0%;"> # of trials in Xi'an: 1</div>`)[0];
+            popup_6cd273a400ba4ba1a6d459a5f1c49f87.setContent(html_676bf3f03c054f5ca432827f8c041cb4);
+        
+
+        circle_66126616581542aeadf4525a3b8feb01.bindPopup(popup_6cd273a400ba4ba1a6d459a5f1c49f87)
+        ;
+
+        
+    
+    
+            var circle_ebc86f9a49aa4dc2847960a9ffc9f6d5 = L.circle(
+                [35.3021133, 113.9202062],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_32d9c7409053467a95a4d318dd8f4569 = L.popup({"maxWidth": 450});
+
+        
+            var html_f31d02101d1c4fc8ac7bf11d29e5d5ad = $(`<div id="html_f31d02101d1c4fc8ac7bf11d29e5d5ad" style="width: 100.0%; height: 100.0%;"> # of trials in Xinxiang: 1</div>`)[0];
+            popup_32d9c7409053467a95a4d318dd8f4569.setContent(html_f31d02101d1c4fc8ac7bf11d29e5d5ad);
+        
+
+        circle_ebc86f9a49aa4dc2847960a9ffc9f6d5.bindPopup(popup_32d9c7409053467a95a4d318dd8f4569)
+        ;
+
+        
+    
+    
+            var circle_f214be9331fb477599dafa9b3f55ba18 = L.circle(
+                [44.841225, -0.5800364],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_8620417f261e45478100a7690a7624d2);
+        
+    
+        var popup_a86a85281fd54ce588b2e29fd5b47347 = L.popup({"maxWidth": 450});
+
+        
+            var html_84c70afa5ca74e1197feb41584073bda = $(`<div id="html_84c70afa5ca74e1197feb41584073bda" style="width: 100.0%; height: 100.0%;"> # of trials in Bordeaux: 1</div>`)[0];
+            popup_a86a85281fd54ce588b2e29fd5b47347.setContent(html_84c70afa5ca74e1197feb41584073bda);
+        
+
+        circle_f214be9331fb477599dafa9b3f55ba18.bindPopup(popup_a86a85281fd54ce588b2e29fd5b47347)
+        ;
+
+        
+    
+</script>
